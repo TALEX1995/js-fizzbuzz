@@ -47,3 +47,23 @@ h1 {
     color: white;
 }
 
+/* Hover */
+
+.card {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.card.bg-yellow:hover{
+    background-image: url(../img/Homer_Simpson.png);
+}
+
+.card.bg-blue:hover {
+    background-image: url(../img/avatar-the-way-of-4480x2520-9209.jpg);
+}
+
+.card.bg-red:hover {
+    background-image: url(../img/ferrari-f430-sports-car-red-sports-car-5aa26ff7213e19.5230862015205949351362.jpg);
+}
+
