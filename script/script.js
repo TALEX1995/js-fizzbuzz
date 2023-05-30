@@ -14,13 +14,13 @@ for (let i = 1; i <= 100; i++) {
 
     // Creo la condizione
     if (!(i % 5) && !(i % 3)) {
-        numberFizzBuzz += `<div class="col">FizzBuzz</div>`
+        numberFizzBuzz += `<div class"col"><div class="card bg-blue text-white">FizzBuzz</div></div>`
     } else if (!(i % 5)) {
-        numberFizzBuzz += `<div class="col">Buzz</div>`
+        numberFizzBuzz += `<div class"col"><div class="card bg-yellow">Buzz</div></div>`
     } else if (!(i % 3)) {
-        numberFizzBuzz += `<div class="col">Fizz</div>`
+        numberFizzBuzz += `<div class"col"><div class="card bg-red">Fizz</div></div>`
     } else {
-        numberFizzBuzz += `<div class="col">${i}</div>`
+        numberFizzBuzz += `<div class"col"><div class="card bg-black text-white">${i}</div></div>`
     }
 }
 
